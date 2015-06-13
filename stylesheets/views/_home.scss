@@ -51,3 +51,43 @@
 		width: 100%;
 	}
 }
+/*testimonio*/
+section.testimonios {
+  background-image: url(http://stokpic.com/wp-content/uploads/2014/09/Laptop-Coffee-And-Retro-Film-Camera-On-Wooden-Desk.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+    .slider {
+     background-color: rgba(69, 69, 69, 0.35);
+     p{
+     	padding: 5%;
+     }
+   }
+}
+/*company*/
+section.company {
+  padding: 10%;
+}
+/*logo*/
+section.logos {
+  padding: 5%;
+  background-color: gainsboro;
+  img {
+    width: 100%;
+  }
+}
+/*todashabilidades*/
+.todas-habilidades{
+	padding: 5%;
+}
+/*numeros*/
+.numeros{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQJNZTNLp1KJi8uEtD4ploXkTw8gbzuRpYH1cnPtiVd44-Hch6);
+	background-attachment: fixed;
+  background-size: cover;
+  .clientes{
+  	background-color: rgba(69, 69, 69, 0.35);
+  	.row{
+  		padding: 5%;
+  	}
+  }
+}
