@@ -5641,7 +5641,7 @@ button.close {
   z-index: 100;
   width: 100%;
   background-color: transparent;
-  padding: 1% 15%;
+  padding: 3% 10%;
   border-color: transparent; }
   .principal .logo img {
     height: 100%; }
@@ -5656,8 +5656,27 @@ button.close {
     padding: 0 5px; }
 
 .navegacion {
-  background-color: grey; }
+  background-color: grey;
+  padding: 0 10%; }
 
+@media screen and (max-width: 1050px) {
+  .principal {
+    padding: 0% 1%; } }
+/*carrusel*/
+/*@media screen and (max-width: 400px){
+.slide{
+	.item{
+		height: 300px;
+		img{
+			height: 100%;
+		}
+	}
+}
+}*/
+@media screen and (max-width: 550px) {
+  .responsive {
+    background-color: grey;
+    padding: 0 10%; } }
 /*segundaseccion*/
 .segunda .todo {
   padding: 10%; }
@@ -5696,18 +5715,7 @@ button.close {
 /*cuartaseccion*/
 .listaa {
   text-align: center;
-  padding: 5%; }
-  .listaa ul {
-    display: inline-block;
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-    width: 50%; }
-    .listaa ul li {
-      float: left;
-      padding: 3%; }
+  padding: 5% 22%; }
 
 .collage {
   padding: 1% 10% 5%; }

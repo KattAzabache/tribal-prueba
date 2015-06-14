@@ -28,3 +28,16 @@ $(document).ready(function(){
     }
   });
 });
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+    var prueba = $(this).scrollTop();
+    $("#nav").text(prueba);
+    if (prueba > 100) {
+      $(".principal").addClass("responsive");
+    }
+      else if (prueba < 100) {
+      $(".principal").removeClass("responsive");
+    }
+  });
+});
