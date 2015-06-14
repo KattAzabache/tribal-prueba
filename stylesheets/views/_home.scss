@@ -11,6 +11,35 @@
 [class*="col-"]{
 	padding: 1%;
 }
+/*nav*/
+.principal{
+  position:fixed; 
+  z-index:100;  
+  width: 100%;   
+  background-color: transparent;
+  padding: 1% 15%;
+  border-color: transparent;
+  .logo{
+  	img{
+  		height: 100%;
+  	}
+  }
+  li.fa.fa-search {
+  padding: 3% 0 0;
+  color: white;
+  font-size: 18px;
+ }
+ h4 {
+  display: inline-block;
+  color: white;
+  margin: 0;
+  padding: 0 5px;
+ }	
+}
+.navegacion{
+	background-color: grey;
+}
+
 /*segundaseccion*/
 .segunda .todo {
   padding: 10%;
@@ -19,6 +48,21 @@
       width: 100%;
     }
   }
+ .profile{
+  h4 {
+    font-family: sans-serif;
+    padding: 2% 0 5%;
+  }
+  h3 {
+   font-family: 'Fjalla One', sans-serif;
+   margin: 0;
+  }
+  p {
+    text-align: justify;
+    padding: 3% 0;
+    font-family: sans-serif;  
+  }
+ }
 }
 /*tercerasecion*/
 .tercera .habilidades {
@@ -81,7 +125,7 @@ section.logos {
 }
 /*numeros*/
 .numeros{
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQJNZTNLp1KJi8uEtD4ploXkTw8gbzuRpYH1cnPtiVd44-Hch6);
+	background-image: url(http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/12/laptop-headphone-coffee-work-music.jpg);
 	background-attachment: fixed;
   background-size: cover;
   .clientes{
@@ -90,4 +134,45 @@ section.logos {
   		padding: 5%;
   	}
   }
+}
+/*texto*/
+.texto-solo{
+	padding: 10%;
+	text-align: center;
+}
+/*redes*/
+section.doceavo.redes {
+  padding: 5% 10%;
+  background-color: rgb(107, 107, 107);
+  img{
+  	width: 100%;
+  }
+  h3 {
+   font-family: 'Fjalla One', sans-serif;
+   color: white;
+  }
+  hr {
+   width: 10%;
+   text-align: left;
+   margin: 5% 0 10%;
+  }
+  p {
+   margin: 0;
+   padding: 5% 0;
+   text-align: justify;
+  }
+}
+section.treceavo.footer-1 {
+  padding: 5%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.84);
+  color: rgb(127, 127, 127);
+  h3 {
+    margin: 0;
+  }
+}
+section.treceavo.footer-2 {
+  padding: 1%;
+  background-color: rgb(107, 107, 107);
+  text-align: center;
 }

@@ -14,3 +14,17 @@ $(function() {
   }
  });
 });
+/*scroll*/
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+    var prueba = $(this).scrollTop();
+    $("#nav").text(prueba);
+    if (prueba > 658) {
+      $(".principal").addClass("navegacion");
+    }
+      else if (prueba < 658) {
+      $(".principal").removeClass("navegacion");
+    }
+  });
+});
