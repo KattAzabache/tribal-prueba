@@ -5678,6 +5678,20 @@ button.close {
 .tercera .habilidades {
   padding: 5% 10%;
   background-color: #cccccc; }
+  .tercera .habilidades .col-md-4 {
+    padding: 0 3%;
+    text-align: justify; }
+    .tercera .habilidades .col-md-4 hr {
+      width: 10%;
+      margin: 7% 0;
+      border-bottom: 2px solid white; }
+    .tercera .habilidades .col-md-4 i {
+      font-size: 35px;
+      padding: 5%; }
+    .tercera .habilidades .col-md-4 h5 {
+      font-family: 'Fjalla One', sans-serif; }
+    .tercera .habilidades .col-md-4 p {
+      padding: 5% 0; }
 
 /*cuartaseccion*/
 .listaa {
@@ -5779,6 +5793,16 @@ section.logos {
   padding: 5% 15%; }
   .todas-habilidades .col-md-4 {
     padding: 5%; }
+    .todas-habilidades .col-md-4 i {
+      font-size: 40px;
+      padding: 3% 7% 3% 0; }
+    .todas-habilidades .col-md-4 h3 {
+      display: inline-block;
+      font-family: 'Fjalla One', sans-serif; }
+    .todas-habilidades .col-md-4 hr {
+      border-top: 2px solid #615959;
+      width: 25%;
+      margin: 8% 0; }
 
 /*numeros*/
 .numeros {
