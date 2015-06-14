@@ -5724,7 +5724,9 @@ section.logos {
 
 /*todashabilidades*/
 .todas-habilidades {
-  padding: 5%; }
+  padding: 5% 15%; }
+  .todas-habilidades .col-md-4 {
+    padding: 5%; }
 
 /*numeros*/
 .numeros {
