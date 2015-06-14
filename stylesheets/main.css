@@ -5696,7 +5696,8 @@ button.close {
 /*tercerasecion*/
 .tercera .habilidades {
   padding: 5% 10%;
-  background-color: #cccccc; }
+  background-color: #cccccc;
+  color: #808080; }
   .tercera .habilidades .col-md-4 {
     padding: 0 3%;
     text-align: justify; }
@@ -5711,6 +5712,10 @@ button.close {
       font-family: 'Fjalla One', sans-serif; }
     .tercera .habilidades .col-md-4 p {
       padding: 5% 0; }
+
+.icon:hover {
+  color: black;
+  background-color: white; }
 
 /*cuartaseccion*/
 .listaa {
@@ -5823,6 +5828,11 @@ section.logos {
       border-top: 2px solid #615959;
       width: 25%;
       margin: 8% 0; }
+
+.iconos:hover {
+  color: white;
+  border-radius: 1%;
+  background-color: #383737; }
 
 /*numeros*/
 .numeros {
