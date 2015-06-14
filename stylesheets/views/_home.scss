@@ -116,6 +116,25 @@
   padding: 5% 22%;
 
 }
+@media screen and (max-width: 750px){
+.listaa {
+  text-align: center;
+  padding: 5% 12%;
+ }	
+}
+@media screen and (max-width: 535px){
+.listaa {
+  text-align: center;
+  padding: 5% 7%;
+ }	
+}
+@media screen and (max-width: 460px){
+.listaa {
+  text-align: center;
+  padding: 5% 0;
+
+ }	
+}
 .collage {
   padding: 1% 10% 5%;
   .imagenes{
@@ -289,4 +308,14 @@ section.treceavo.footer-2 {
   padding: 1%;
   background-color: rgb(107, 107, 107);
   text-align: center;
+}
+@media screen and (max-width: 900px){
+ section.treceavo.footer-2{
+ 	font-size: 15px;
+ }
+ section.treceavo.footer-1 {
+  h3,h4{
+ 	  font-size: 15px;   
+  }
+ } 	
 }
