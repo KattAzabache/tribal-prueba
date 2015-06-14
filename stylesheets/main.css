@@ -5654,6 +5654,8 @@ button.close {
     color: white;
     margin: 0;
     padding: 0 5px; }
+  .principal li:hover {
+    border-bottom: 1px solid white; }
 
 .navegacion {
   background-color: grey;
